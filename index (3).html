@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        #grid { 
+            border-radius: 10px;
+            background-color: rgb(70, 70, 70);
+          display: grid;
+          grid-template-rows:1fr 1fr 1fr 1fr 1fr;
+          grid-template-columns: 1fr 1fr 1fr 1fr ;
+          grid-gap: 0.09vw;
+          width: 200px;
+          height: 300px;
+          margin: 0 auto;
+          border: 1px solid rgb(107, 107, 107);
+          color: white;
+          font-weight: bold;
+          }
+       
+          
+          
+        
+        #orang{
+            font-size: 20px;
+            
+          padding: 8px;
+          background: rgb(255, 136, 0);
+          text-align: center;
+        }
+        #cifr{
+            font-size: 20px;
+          padding: 8px;
+          background: rgb(103,101,108,255);
+          text-align: center;
+        }
+        #inshe{
+            font-size: 20px;
+          padding: 8px;
+          background: rgb(152, 149, 149);
+          text-align: center;
+        }
+        #thre{
+            font-size: 20px;
+          padding: 8px;
+          background: linear-gradient(to top, #525058 0%, #66656a 51%, #525058 100%);
+          text-align: center; 
+        }
+        #gride1{
+            display: grid;
+            grid-template-columns:  1fr 1fr 1fr ;
+           width: 13px;
+           grid-gap: 0.4vw;
+        }
+        .a1{ 
+            grid-column-start: 1;
+            grid-column-end: 3;
+            border-radius:  0 0 0 10px ;
+            font-size: 20px;
+          padding: 8px;
+          background: rgb(103,101,108,255);
+          text-align: center;
+        }
+        .a2{
+            grid-column-start: 1;
+            grid-column-end: 5;
+            grid-row-start: 1;
+            grid-row-end: 3;
+            border-radius: 10px 10px 0 0 ;
+            font-size: 40px;
+          padding: 8px;
+          background: rgb(84,82,90,255);
+          text-align: right;
+          text-align: end;
+          
+        }
+        .a3{
+            border-radius: 0 0 10px 0;
+            font-size: 20px;
+          padding: 8px;
+          background: rgb(255, 138, 5);
+          text-align: center;
+          
+        }
+        .a4{
+           margin-top: 10%
+        }
+        .circle-block {
+  background:rgb(248, 59, 25);
+  
+  border-radius: 50%;
+  height: 12px;
+  width: 12px;
+ }
+ .circle-block1 {
+  background:rgb(255, 196, 0);
+  
+  border-radius: 50%;
+  height: 12px;
+  width: 12px;
+ }
+ .circle-block2 {
+  background:rgb(3, 216, 3);
+  
+  border-radius: 50%;
+  height: 12px;
+  width: 12px;
+ }
+       
+        
+        </style>
+        <div  id="grid">
+            <div class="a2">
+                <div id="gride1">
+                    <div class="circle-block"></div>
+                    <div class="circle-block1"></div>
+                    <div class="circle-block2"></div>
+                </div>
+                <h3 class="a4">0</h3> </div>
+            <div id="thre">AC</div>
+            <div id="thre">+/-</div>
+            <div id="thre">%</div>
+            <div id="orang">÷</div>
+          <div id="cifr">7</div>
+          <div id="cifr">8</div>
+          <div id="cifr"> 9</div>
+          <div id="orang">×</div>
+          <div id="cifr">4</div>
+          <div id="cifr">5</div>
+          <div id="cifr">6</div>
+          <div id="orang">-</div>
+          <div id="cifr">1</div>
+          <div id="cifr">2</div>
+          <div id="cifr">3</div>
+          <div id="orang">+</div>
+          <div class="a1">0</div>
+          <div id="cifr">,</div>
+          <div class="a3">=</div>
+        </div>
+        
+       
+</div>
+</body>
+</html>
